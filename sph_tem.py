@@ -15,7 +15,7 @@ from scipy.spatial import cKDTree
 
 
 __doc__ = """
-Find weak circles and identify square/hex packing of nanoparticles.
+Find weak circles (may be faintly overlapped) and identify square/hex packing of nanoparticles.
 """
 
 def compute_psi_n_with_jump_filter(coords, k, n,
