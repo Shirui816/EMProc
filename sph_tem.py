@@ -176,6 +176,7 @@ def detect_circles_in_grayscale(image_path, output_path='out.jpg'):
     if output_path:
         cv2.imwrite(output_path, img_result1)
     
+    return circles1
 
 
 
